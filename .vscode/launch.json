@@ -4,8 +4,13 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
-        
+        {
+            "type": "java",
+            "name": "MAT",
+            "request": "launch",
+            "mainClass": "MAT",
+            "projectName": "Criando-LoLo_2394cc23"
+        },
         {
             "type": "java",
             "name": "Current File",

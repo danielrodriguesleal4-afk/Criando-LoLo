@@ -1,8 +1,15 @@
+
+import java.util.Scanner;
+
 public class MAT {
     public static void main(String[] args) {
-        double numero1 = 5.5;
-        double numero2 = 8.5;
-        double resultado = numero2 - numero1;
-        System.out.println("A subtração de 5.5 - 8.5 é: " + resultado);
+        Scanner leitor = new Scanner(System.in);
+        System.out.print("Escolha o primeiro de 1 a 100: ");
+        int n1 = leitor.nextInt();
+        System.out.print("Escolha o segundo número de 1 a 100: ");
+        int n2 = leitor.nextInt();
+        int resultado = n1 + n2;
+        System.out.print("Aqui está a soma: " + resultado);
+        leitor.close();
     }
 }
