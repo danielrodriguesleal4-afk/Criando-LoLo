@@ -5,7 +5,7 @@ public class voz {
         Scanner leitor = new Scanner(System.in);
     System.out.print("Qual é o seu nome? :" );
     String name = leitor.nextLine();
-    System.out.print("Seja bem vindo " + name );
+    System.out.println("Seja bem vindo " + name );
         leitor.close();
     }
 }
