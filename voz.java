@@ -7,7 +7,8 @@ public class voz {
     System.out.print("Qual é o seu nome? :" );
     String name = leitor.nextLine();
     System.out.println("Boa tarde! " + name + ", Sejá bem vindo.");
-    System.out.println("");
+    System.out.println("Quantos anos vc tem?");
+    String name = leitor.nextLine();
         }
     }
 }
