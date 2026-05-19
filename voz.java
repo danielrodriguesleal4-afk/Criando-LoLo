@@ -11,7 +11,7 @@ public class voz {
     System.out.print("Quantas laranjas vc deseja comprar?: " );
     int n1 = leitor.nextInt();
     System.out.println("Está tendo uma promoção nas maçãs também.");
-    System.out.println("Quantas maçãs deseja comprar?: ");
+    System.out.print("Quantas maçãs deseja comprar?: ");
     int n2 = leitor.nextInt();
     System.out.println("Ó valor pago será a quantidades de maçãs multiplicadas pelo dos da laranja: ");
     int resultado = n1 * n2;
