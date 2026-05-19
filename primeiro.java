@@ -19,7 +19,18 @@ public class primeiro{
     System.out.println("Aqui está o resultado: " + resultado2 );
     System.out.println("===== MAT multiplicação =====");
     System.out.print("Escolha um número: ");
-    
+    double n5 = leitor.nextDouble();
+    System.out.print("Escolha um segundo número: ");
+    double n6 = leitor.nextDouble();
+    double resultado3 = n5 * n6;
+    System.out.println("Aqui está o resultado: " + resultado3);
+    System.out.println("===== MAT Divisão =====");
+    System.out.print("Escolha um número: ");
+    double n7 = leitor.nextDouble();
+    System.out.print("Escolha um segundo número: ");
+    double n8 = leitor.nextDouble();
+    double resultado4 = n7 / n8;
+    System.out.println("Aqui está o resultado: " + resultado4 );
         }
     }
 }
