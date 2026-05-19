@@ -1,5 +1,6 @@
-public class primeiro {
+import java.util.Scanner;
+
+public class programa{
     public static void main(String[] args) {
-        System.out.println("Tudo Bem?");
-    }  
-}
+        try (Scanner leitor = new Scanner())
+    }

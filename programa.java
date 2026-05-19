@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class programa{
     public static void main(String[] args) {
         try (Scanner leitor = new Scanner(System.in)) {
-    System.out.println("Um determinado grupo de pessoas foram ao restaurante.");
+    System.out.println("=== Um determinado grupo de pessoas foram ao restaurante ===");
     System.out.println("=== Esse foi o valor da conta...... ===");
     System.out.print("Escolha um número aléatorio: ");
     double n1 = leitor.nextDouble();
