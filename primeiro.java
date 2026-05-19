@@ -31,6 +31,7 @@ public class primeiro{
     double n8 = leitor.nextDouble();
     double resultado4 = n7 / n8;
     System.out.println("Aqui está o resultado: " + resultado4 );
+    System.out.println("===== Finalizado =====");
         }
     }
 }
