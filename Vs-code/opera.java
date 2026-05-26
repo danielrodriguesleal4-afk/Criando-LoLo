@@ -14,6 +14,7 @@ public class opera {
          break;
       case 3:
    System.out.println("Vc escolheu 3. Aqui está o resultado: 2100");
+         break;
       default:
    System.out.println("Erro! Opção invalida.");
          break;
