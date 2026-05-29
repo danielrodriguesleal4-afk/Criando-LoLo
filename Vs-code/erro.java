@@ -35,7 +35,7 @@ String escolha = leitor.next();
         }
         else if (escolha.equals("J")) {
             System.out.println("Letra J, Valor 10.");
-        }
+        } 
         else {
             System.out.println("Valor inválido! Escolha uma letra na tabela.");
     }

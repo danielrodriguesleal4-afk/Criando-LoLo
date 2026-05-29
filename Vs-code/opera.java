@@ -6,18 +6,10 @@ public class opera {
    System.out.print("Escolha um número entre 1,2 é 3: ");
       int escolha = leitor.nextInt();
    switch (escolha) {
-      case 1:
-   System.out.println("Vc escolheu 1. Aqui está o resultado: 700");
-         break;
-      case 2:
-   System.out.println("VC escolheu 2. Aqui está o resultado: 1400");
-         break;
-      case 3:
-   System.out.println("Vc escolheu 3. Aqui está o resultado: 2100");
-         break;
-      default:
-   System.out.println("Erro! Opção invalida.");
-         break;
+      case 1 -> System.out.println("Vc escolheu 1. Aqui está o resultado: 700");
+      case 2 -> System.out.println("VC escolheu 2. Aqui está o resultado: 1400");
+      case 3 -> System.out.println("Vc escolheu 3. Aqui está o resultado: 2100");
+      default -> System.out.println("Erro! Opção invalida.");
          }
        }
     }
