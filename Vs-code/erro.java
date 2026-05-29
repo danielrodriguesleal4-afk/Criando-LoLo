@@ -4,7 +4,7 @@ public class erro {
     public static void main(String[] args) {
 try (Scanner leitor = new Scanner(System.in)) {
     System.out.println("===== Escolhas de valor =====");
-    System.out.print("Escolha uma letra de A,B,C,D,E,F,G,H,I é J: ");
+    System.out.print("Escolha uma letra de A até J: ");
 String escolha = leitor.next();
     if (escolha.equals("A")) {
         System.out.println("Letra A, Valor 1.");
