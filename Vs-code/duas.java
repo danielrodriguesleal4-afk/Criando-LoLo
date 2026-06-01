@@ -9,5 +9,6 @@ try (Scanner leitor = new Scanner(System.in)) {
     if (escolha.equals("A")) {
         System.out.println("BOMMMMMMMMMMMMM");
     }
-}
+   }
+  }
 }
