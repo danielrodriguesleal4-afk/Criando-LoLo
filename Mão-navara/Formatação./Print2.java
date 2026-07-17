@@ -1,12 +1,9 @@
-// importando o Scanner.
+// importação do Scanner.
 import java.util.Scanner;
 
 public class Print2 {
     public static void main(String[] args) {
-        /* "leitor" e a criação da variavel.
-         * 
-         * 
-         */
+        // "leitor" e a criação da variavel.
         try (Scanner leitor = new Scanner(System.in)) {
         System.out.print("O nome do aluno: ");
     String nome = leitor.nextLine();
