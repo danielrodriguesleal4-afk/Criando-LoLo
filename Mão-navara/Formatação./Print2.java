@@ -6,8 +6,10 @@ public class Print2 {
         // "leitor" e a criação da variavel.
         try (Scanner leitor = new Scanner(System.in)) {
         System.out.print("O nome do aluno: ");
+        // O comando String e para utilizar em letras e palavras.
     String nome = leitor.nextLine();
         System.out.print("A nota do aluno: ");
+        // É o comando "float" e para números.
     float nota = leitor.nextFloat();
         System.out.printf("A nota de %s é %.2f \n", nome, nota);
         }
