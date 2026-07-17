@@ -8,9 +8,11 @@ public class Print2 {
          * 
          */
         try (Scanner leitor = new Scanner(System.in)) {
+        System.out.print("O nome do aluno: ");
     String nome = leitor.nextLine();
+        System.out.print("A nota do aluno: ");
     float nota = leitor.nextFloat();
-        System.out.printf("A nota de %s é %.2", nome, nota);
+        System.out.printf("A nota de %s é %.2f \n", nome, nota);
         }
     }
 }
