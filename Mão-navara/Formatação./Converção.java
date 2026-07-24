@@ -13,6 +13,6 @@ public class Converção {
     // Mostrando os resultados.
         System.out.printf("Sua idade é: %s \n", valor);
         System.out.printf("Sua idade é: %d \n", idade2);
-        System.out.printf("Sua idade é: %.3f \n", idade3);
+        System.out.printf("Sua idade é: %.1f \n", idade3);
     }
 }
