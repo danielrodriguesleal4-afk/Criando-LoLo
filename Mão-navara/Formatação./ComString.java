@@ -13,6 +13,6 @@ public class ComString {
         String r1;
     // "equals" para objetos.
         r1 = (nome2.equals(nome3)) ? "sim":"não";
-        System.out.println("Eles são diferentes: " + r1);
+        System.out.println("Eles são iguais: " + r1);
     }
 }
