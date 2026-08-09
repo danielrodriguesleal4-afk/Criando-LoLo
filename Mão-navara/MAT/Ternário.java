@@ -1,5 +1,6 @@
 public class Ternário {
     public static void main(String[] args) {
+
     // --- Operadores Relacionais: v1 --- //
     System.out.println(" --- Operadores Relacionais. ---");
 
@@ -36,12 +37,22 @@ public class Ternário {
     // --- Operadores Lógicos: v2 --- //
     System.out.println(" --- Operadores Lógicos. ---");
 
-    // "&&" 
+    // "&&" Quero os dois certos.
         int x = 4, y = 7, z = 12;
         boolean r;
         r = (x<y && y<z) ? true:false;
-        System.out.println(r);
+        System.out.println("Os dois estão certos? " + r);
 
+    // "||" Quero pelo menos um certo.
+        int x1 = 4, y1 = 3, z1 = 30;
+        boolean rp;
+        rp = (x1==y1 || z1>y1) ? true:false;
+        System.out.println("Pelo menos um certo? " + rp);
 
+    // "^" Quero exclusivamente um certo.
+        int x2 = 6, y2 = 14, z2 = 69;
+        boolean ex;
+        ex = (x2<y2 ^ y2<z2) ? true:false;
+        System.out.println("Só um ta certo? " + ex);
     }
 }
