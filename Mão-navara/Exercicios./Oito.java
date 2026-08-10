@@ -18,13 +18,13 @@ public class Oito {
         int ano = leitor.nextInt();
         int idade = 2026 - ano;
         Integer.toString(idade);
-        String sit = (idade>=18) ? "Maior":"Menor";
+        String sit = ((idade>=16 && idade<18) || (idade>70)) ? "Opicional":"Obrigatorio";
 
         // Resultado
         System.out.println(" --- Resultado. ---");
-        System.out.println("Sua idade é: " + idade);
-        System.out.println("Vc é de " + sit);
-
+        System.out.println("Sua Idade é: " + idade);
+        System.out.println("Seu voto é " + sit);
+  
 
         }
     }
