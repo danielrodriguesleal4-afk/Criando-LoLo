@@ -11,7 +11,7 @@ public class quiz {
     int N = leitor.nextInt();
 
     double A = Math.random();
-    int X = (int) (1 + A * (5 - 1));
+    int X = (int) (1 + A * (6 - 1));
 
     String R = (N==X) ? "Arcertou":"Errou, estava pensando em " + X;
 
