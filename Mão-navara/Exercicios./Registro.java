@@ -20,7 +20,7 @@ public class Registro {
     double nota = leitor.nextDouble();
 
     //Sistema.
-    String R = (Ida>=18) ? nome + " Sua nota é: " + nota:"Vc não tem idade suficiente.";
+    String R = (Ida>=18) ? nome + " Sua nota é: " + nota:"Vc não possui idade suficiente.";
 
     // Resultado.
     System.out.println(R);
