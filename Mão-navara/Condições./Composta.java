@@ -12,15 +12,34 @@ public class Composta {
 
     // Sistema
 
-    // Calculo.
+    // Calculo 1.
     int I = 2026 - data;
 
-    // Estrutura.
+    // Estrutura 1.
     if (I>=18) {
         System.out.println("Maior de idade.");
     }
     else {
         System.out.println("Menor de idade.");
+    }
+
+    // --- Ímpar ou Par --- //
+
+    // Anúncio 2.
+    System.out.print("Digite um número e saberei se ele e par ou ímpar: ");
+    int num = leitor.nextInt();
+
+    // Sistema
+
+    // Calculos 2.
+    int R = num%2;
+
+    // Estrutura 2.
+    if (R==0) {
+        System.out.println("Número par.");
+    }
+    else {
+        System.out.println("Número Ímpar.");
     }
         }
     }
