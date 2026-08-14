@@ -15,6 +15,7 @@ public class Composta {
     // Calculo.
     int I = 2026 - data;
 
+    // Estrutura.
     if (I>=18) {
         System.out.println("Maior de idade.");
     }
