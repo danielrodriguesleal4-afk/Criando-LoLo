@@ -26,7 +26,8 @@ public class Composta {
     // --- Ímpar ou Par --- //
 
     // Anúncio 2.
-    System.out.print("Digite um número e saberei se ele e par ou ímpar: ");
+    System.out.print
+    ("Digite um número e saberei se ele e par ou ímpar: ");
     int num = leitor.nextInt();
 
     // Sistema
