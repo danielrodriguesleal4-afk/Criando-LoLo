@@ -9,6 +9,7 @@ public class Pernas {
         System.out.print("Quantas pernas possuí o ser vivo escolhido? ");
         int P = leitor.nextInt();
 
+        // Variavel para a escolha.
         String tipo;
 
         switch (P) {
